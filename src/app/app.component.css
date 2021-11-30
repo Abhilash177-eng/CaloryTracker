@@ -1,0 +1,208 @@
+.contactList{
+    width: 38.5%;
+    height: 74%;
+    margin-top: 5%;
+    border-radius: 3.8%;
+    margin-left: 28%;
+    background-color:black;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: auto;
+    padding: 10px;
+    position: absolute;
+    overflow:auto;
+    overscroll-behavior: contain;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+  }
+
+  .iop{
+    background-color: yellow;
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    justify-content: center;
+    display: flex;
+    border-radius: 40px;
+    font-weight:bold;
+    height:76%;
+  }
+
+  .cointainer {
+    background-color:orange;
+    width: 38.5%;
+    height: 74%;
+    margin-top: 8%;
+    border-radius: 3.8%;
+    position:absolute;
+    margin-left: 28%;
+}
+
+.font{
+  margin-left:-51%;
+}
+
+.textboxholder {
+  background-color:black;
+  width: 97%;
+  height:76%;
+  border-radius:6.1%;
+  margin-left:1.4%;
+  margin-top:7%;
+  position: absolute;
+}
+
+.formhead{
+  text-align: center;background-color:yellow;color:black;font-size: x-large;border-radius:20px;height: 100px;;min-height:100px;display: flex;
+  
+}
+
+.alignimg{
+  width: 120px;border-radius:50%;margin-left:-100%;
+}
+
+.addlist{
+  margin-left:-31%
+}
+
+.headContent{
+  margin-left:20%;margin-top: 2%;
+}
+
+@media only screen and (max-width: 450px) {
+  .contactList{
+    width: 90.5%;
+    height: 84%;
+    margin-top: 8%;
+    border-radius: 3.8%;
+    margin-left: 0.1%;
+    background-color:#61B457;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: auto;
+    padding: 10px;
+    position: absolute;
+    overflow: auto;
+    overscroll-behavior: contain;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .addcontact{
+    margin-top: 12%;
+    margin-left: 85%;
+    position: absolute;
+  }
+
+  .iop{
+    background-color: white;
+    padding: 5px;
+    font-size: 14px;
+    text-align: center;
+    color: black;
+    justify-content: center;
+    display: flex;
+    border-radius: 40px;
+    line-height: 35px;
+  }
+
+  .cointainer {
+    background-color:orange;
+    width: 96%;
+    height: 79%;
+    margin-top: 8%;
+    border-radius: 3.8%;
+    position:absolute;
+    margin-left: 0.1%;
+}
+
+aligncalender{
+  margin-left: 70%;;
+
+}
+
+.alignimg{
+  width: 120px;border-radius:50%;margin-left:-60%;
+}
+
+.addlist{
+  margin-left:2%;
+}
+
+.headContent{
+  margin-left:-8%;margin-top: 9%;
+}
+
+.foodContent{
+  margin-left:9%;margin-top: 9%;
+}
+
+
+}
+
+
+@media only screen and (min-width:500px) and (max-width:1250px) {
+
+  .contactList{
+    width: 61.5%;
+    height: 76%;
+    margin-top: 8%;
+    border-radius: 3.8%;
+    margin-left: 19%;
+    background-color:#61B457;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: auto;
+    padding: 10px;
+    position: absolute;
+    overflow: auto;
+    overscroll-behavior: contain;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .addcontact{
+    margin-top: 11%;
+    margin-left: 77%;
+    position: absolute;
+  }
+
+  .cointainer {
+    background-color:orange;
+    width: 63%;
+    height: 89%;
+    margin-top: 9%;
+    border-radius: 3.8%;
+    position:absolute;
+    margin-left: 18%;
+}
+
+.alignimg{
+  width: 120px;border-radius:50%;margin-left:-60%;
+}
+
+.addlist{
+  margin-left:2%;
+}
+
+.headContent{
+  margin-left:-8%;margin-top: 9%;
+}
+
+.foodContent{
+  margin-left:9%;margin-top: 9%;
+}
+
+.iop{
+  background-color: white;
+  padding: 5px;
+  font-size: 14px;
+  text-align: center;
+  color: black;
+  justify-content: center;
+  display: flex;
+  border-radius: 40px;
+  line-height: 35px;
+}
+
+
+}
